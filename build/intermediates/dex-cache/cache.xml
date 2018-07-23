@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/93917b3c6c8557f848be2b424f5cc59f36d2460d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_10630262544f5f01c04726d1e279668205ec8fd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4ca20e0aeca2c6fa1c2ca30e90663e42c6d9d91b">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_3f0b6771dd9f7de17337116ff7278abbfe762107/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/66b3b46e9bf36e3a17309f2f5583c90ec24c22c7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d30fea97b615470b068d444e58e26a6fa22ca8de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/fdcac9dac7eaa4b76871ad52f80b6748c55ed3b1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4a9ea58b200fb285c8f3c2efc65a94ce9bc8ac16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/c26bccaeae923d258b6bb6a660a23177cbff8440/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e17717960208be0f6a341ac4fbfba150516a176f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/dcb76a5ab1a968b6cbafba83b0d93b55525d6180/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_34920bd17fddebf798502311dd25773a486f8e5b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_3ae14ce9b757feccf50494dd32a0edace6901d1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/28b570578aa882f69c07d82fdbdab59233eb8964/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a8532464ea91a3446701167d0ac6942a360c4437/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/8406fca49db55632f62953b916fd5daa5b5fdce5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_040e8b216b7bdbf25775d088cdbd06f6a6b1baa8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/86b690130937a9c3b753003daba78be50cbf58bc/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b3d94309b52b6c71fb1b20572dad30c02fab3c98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_5e5fe5319c0540e5d3191c10ac6da4f75537f4f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/bf6002887639a45db09cb6e4fc6b12ae78463721/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ede63ec3fdf55ff2f97fb9ca6bb09c9968e89f05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/30d13147e79d0c1462046e1896e6dd62c1e16947/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_943dc54e6f7a5f848ccbf326a2c99905542d47d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_71b38bfae8ff6e57f0263606d2a2c0f2a84df4df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/f502c9d0b036167686c980f137d865ec77e95b7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d4a5e04ab82f5d81ebb9723bf01b8490ac8a4a47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/e267a1b7cb7b02a4f5cff08d2129018bd9d4dd67/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7253be770aeb9ab3b0afddcb1258524386d4a3f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/f69ae5f00c25e607f55c16520311310b66103071/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_aa3764dc3081ac7ef9c61f1786d60d64a19eef15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/lorand/.android/build-cache/fc8e9256d64eb49172e592c77a18e168a075f936/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/lorand/AndroidStudioProjects/BitCointWallet/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ddd5993d55603b4434cfd402f476f78cdb71e1fe/classes.dex" />
+    </item>
+
+</items>

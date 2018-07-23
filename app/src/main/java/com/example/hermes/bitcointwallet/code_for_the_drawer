@@ -1,0 +1,101 @@
+      //private NavigationView mNavigationView;
+        // private DrawerLayout mDrawerLayout;
+
+        //Initializing NavigationView
+        mNavigationView = (NavigationView)findViewById(R.id.navigation_view);
+
+        //Setting navigation view Item selected Listener to handle the item click of the navigation
+        //menu
+        mNavigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+                //Checking if the item is in checked state or not, if not, make it in checked state
+               if(menuItem.isChecked())
+                   menuItem.setChecked(false);
+                else
+                    menuItem.setChecked(true);
+                    //closing drawer on item click
+                    mDrawerLayout.closeDrawers();
+
+
+                //Check to see which item was being clicked and perform appropiate action
+                switch (menuItem.getItemId()){
+
+                    //Replacing the main content with ContentFragment whichs is our Inbox view
+                    case R.id.inbox:
+                        Toast.makeText(getApplicationContext(),"Inbox selected", Toast.LENGTH_SHORT).show();
+                      //  FragmentContent fragmentContent = new FragmentContent();
+                      //  android.support.v4.app.FragmentTransaction fragmentTransaction = getSupportFragmentManager().beginTransaction();
+                       // fragmentTransaction.replace(R.id.frame,fragmentContent).commit();
+                        return true;
+
+                    //For the rest of the options we just show a toast on Click
+                    case R.id.starred:
+                        Toast.makeText(getApplicationContext(), "Starred selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    case R.id.sent_mail:
+                        Toast.makeText(getApplicationContext(), "Sent selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    case R.id.drafts:
+                        Toast.makeText(getApplicationContext(), "Drafts selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    case R.id.allMail:
+                        Toast.makeText(getApplicationContext(), "All mail selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    case R.id.trash:
+                        Toast.makeText(getApplicationContext(), "Trash selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    case R.id.spam:
+                        Toast.makeText(getApplicationContext(), "Spam selected", Toast.LENGTH_SHORT).show();
+                        return true;
+                    default:
+                        Toast.makeText(getApplicationContext(), "Something went wrong boss!", Toast.LENGTH_SHORT).show();
+                        return true;
+
+                }
+            }
+        });
+
+        //Initializing Drawer layout and ActionBarToggle
+        mDrawerLayout = (DrawerLayout)findViewById(R.id.drawer);
+        ActionBarDrawerToggle actionBarToggle = new ActionBarDrawerToggle(this, mDrawerLayout,mToolbar,R.string.openDrawer, R.string.closeDrawer){
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+            }
+        };
+
+        //Setting the actionbarToggle to drawer layout
+        mDrawerLayout.addDrawerListener(actionBarToggle);
+
+        //calling sync state is necessary or else your hamburger icon wont show up
+        actionBarToggle.syncState();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        //Inflate the menu. This adds items to the action bar if it is presed.
+       getMenuInflater().inflate(R.menu.menu_main,menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        //Handle action bar item clicks here. The action bar will automatically handle clicks
+        //on the Home/Up button, so long as you specify a parent activity in AndroidManifest.xml
+
+        int id = item.getItemId();
+
+        //no inspection SimplifiableIfStatement
+        if (id == R.id.action_settings)
+            return true;
+
+
+        return super.onOptionsItemSelected(item);
